@@ -60,7 +60,7 @@ int parse_line(int *array, char *line)
     return 0;
 }
 
-// Calculate the amount of paper needed to wrap a box
+// Calculate the amount of ribbon needed to wrap a box
 int ribbon_amount(int *box_dims)
 {
     int perimeter_sections[3]; // perimeters of different sections of the box
