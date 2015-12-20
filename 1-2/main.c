@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
             return 0;
         }
     } while (ch != EOF);
+    fclose(in_file);
 
     printf("Santa never entered the basement.\n");
     return 1;

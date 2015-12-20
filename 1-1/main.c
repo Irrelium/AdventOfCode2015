@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
                 break;
         }
     } while (ch != EOF);
+    fclose(in_file);
 
     printf("%d\n", floor);
 
