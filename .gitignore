@@ -1,0 +1,15 @@
+# This .gitignore is probably bad
+
+# ignore extentionless files
+*
+!*.*
+!*/
+# except README and Makefiles
+!**/README
+!**/Makefile
+
+# object files
+**/*.o
+
+# vim .swp files
+**/*.swp
